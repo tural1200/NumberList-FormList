@@ -1,0 +1,38 @@
+#root {
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .box label {
+    padding: 10px 0;
+}
+
+form .box input {
+    height: 20px;
+}
+
+form .box textarea {
+    height: 10rem;
+}
+
+form  button {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
